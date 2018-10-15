@@ -79,4 +79,4 @@
 以上基本上集成完毕。  
 使用方法参加[链接](使用方法文档.md)。  
 参考文档：  
-[项目埋点的演进](http://wiki.weli.cn/archives/4501)
+[项目埋点的演进](https://www.jianshu.com/p/abdaf64ad553)

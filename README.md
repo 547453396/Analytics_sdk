@@ -1,6 +1,6 @@
 ##SDK使用说明
 
-参考[数据协议](http://git.etouch.cn/gitbucket/ssy-dmp/app-analysis-collect/tree/master/protocol/v3.0.x)及上传的数据模型。另外本sdk源码上参考[神策开源代码](https://github.com/sensorsdata/sa-sdk-android).
+参考[数据协议](protocol.md)及上传的数据模型。另外本sdk源码上参考[神策开源代码](https://github.com/sensorsdata/sa-sdk-android).
 
 ##集成SDK
 
@@ -77,6 +77,6 @@
 ![图2](http://img2033.static.suishenyun.net/e79c3b8f01a693b60e8a69616a4f35fb/6e38d99af2f9409ac8f429d8c1c5be8d.png!w480.jpg)
 
 以上基本上集成完毕。  
-使用方法参加[链接](使用方法文档)。  
+使用方法参加[链接](使用方法文档.md)。  
 参考文档：  
 [项目埋点的演进](http://wiki.weli.cn/archives/4501)

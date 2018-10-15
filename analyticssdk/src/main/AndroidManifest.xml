@@ -1,0 +1,37 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.weli.analytics">
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="20" />
+
+    <!-- 蓝牙权限 -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <!-- 同步数据需要网络权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 获取网络状态 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 获取运营商信息 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <!-- 写入扩展存储 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 读取缓存数据 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- 3d感应权限 -->
+    <uses-permission android:name="android.permission.SENSOR_ENABLE" />
+
+    <application>
+        <provider
+            android:name=".AnalyticsDataContentProvider"
+            android:authorities="${applicationId}.AnalyticsDataContentProvider"
+            android:enabled="true"
+            android:exported="true" />
+
+        <meta-data
+            android:name="cn.weli.analytics.android.MainProcessName"
+            android:value="${applicationId}" />
+    </application>
+</manifest>
